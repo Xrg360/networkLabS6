@@ -3,8 +3,8 @@
 ## Contents:
 1. [Objective](https://github.com/Xrg360/networkLabS6/blob/master/exp1-TCP/README.md#objective)
 2. [Experiment Overview](https://github.com/Xrg360/networkLabS6/tree/master/exp1-TCP#experiment-overview)
-   1.SERVER ALGORITHM
-   2.CLIENT ALGORITHM
+   1. SERVER ALGORITHM
+   2. CLIENT ALGORITHM
 3. [Viva Questions](https://github.com/Xrg360/networkLabS6/tree/master/exp1-TCP#viva-questions)
 
 
