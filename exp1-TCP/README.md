@@ -1,5 +1,14 @@
 # Network Lab - Experiment: Server-Client Communication using TCP
 
+## Contents:
+1. Objective
+2. Experiment Overview
+3. Experiment Procedure
+   1.SERVER ALGORITHM
+   2.CLIENT ALGORITHM
+5. Viva Questions
+
+
 ## Objective:
 The objective of this experiment is to understand the basics of server-client communication using TCP (Transmission Control Protocol).
 
