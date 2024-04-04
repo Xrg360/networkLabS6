@@ -10,48 +10,32 @@ In this experiment, we implemented a simple client-server model using TCP socket
 ###ALGORITHM
 
    -SERVER
-   1. **Include Header Files:**
-   - Include necessary header files such as `stdio.h`, `string.h`, `sys/socket.h`, and `arpa/inet.h`.
+   1. Include necessary header files such as `stdio.h`, `string.h`, `sys/socket.h`, and `arpa/inet.h`.
 
-   2. **Main Function:**
-      - Declare variables for socket descriptors, server and client addresses, and messages to be sent and received.
-      - Initialize the server and client messages with null characters using `memset()`.
+   2. Declare variables for socket descriptors, server and client addresses, and messages to be sent and received,and Initialize the server and client messages with null characters using `memset()`.
    
-   3. **Create Socket:**
-      - Call `socket()` to create a socket for communication.
-      - Check if the socket creation was successful. If not, print an error message and exit.
+   3. Call `socket()` to create a socket for communication, and Check if the socket creation was successful. If not, print an error message and exit.
    
    4. **Bind to Port:**
       - Set up the server address structure (`server_addr`) with the desired port and IP address (`127.0.0.1` in this case).
       - Call `bind()` to bind the socket to the server address.
       - Check for errors in binding. If there's an error, print a message and exit.
    
-   5. **Listen for Connections:**
-      - Call `listen()` to make the server listen for incoming connections.
-      - Check for errors in listening. If there's an error, print a message and exit.
+   5. Call `listen()` to make the server listen for incoming connections.
    
-   6. **Accept Connection:**
-      - Call `accept()` to accept incoming client connections.
-      - If the connection is accepted successfully, print the client's IP address and port number.
+   6. Call `accept()` to accept incoming client connections. If the connection is accepted successfully, print the client's IP address and port number.
    
-   7. **Receive Data from Client:**
-      - Call `recv()` to receive data from the client.
-      - Check for errors in receiving. If there's an error, print a message and exit.
+   7.  Call `recv()` to receive data from the client.
    
-   8. **Process Received Data:**
-      - Print the message received from the client.
+   8.  Print the message received from the client.
    
-   9. **Send Data to Client:**
-      - Prepare a response message for the client.
+   9.  Prepare a response message for the client.
       - Call `send()` to send the response message to the client.
       - Check for errors in sending. If there's an error, print a message and exit.
    
-   10. **Close Connections:**
-       - Close the client socket using `close()`.
-       - Close the server socket using `close()`.
+   10. Close Connections:
    
-   11. **Exit:**
-       - Exit the program with status `0`.
+   11.  Exit the program with status `0`.
    
 
 
