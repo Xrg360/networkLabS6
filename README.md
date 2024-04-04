@@ -10,7 +10,6 @@ This repository contains all the necessary files for the KTU S6 NETWORK LAB.
 
 ### Operating Systems Experiments
 - [SERVER CLIENT USING TCP](https://github.com/Xrg360/NetworkLabS6/tree/master/exp1-TCP)
-
     - [SERVER.C](https://github.com/Xrg360/NetworkLabS6/blob/master/exp1-TCP/server.c)
     - [CLIENT.C](https://github.com/Xrg360/NetworkLabS6/blob/master/exp1-TCP/client.c)
 
@@ -32,5 +31,5 @@ This repository contains all the necessary files for the KTU S6 NETWORK LAB.
 - [MULTIUSER_CHAT](https://github.com/Xrg360/NetworkLabS6/tree/master/exp6-MultiUserChat)
     - [SERVER](https://github.com/Xrg360/NetworkLabS6/tree/master/exp6-MultiUserChat/server.c)
     - [CLIENT](https://github.com/Xrg360/NetworkLabS6/tree/master/exp6-MultiUserChat/client.c)
-    - 
+      
 - [LEAKY BUCKET ALGORITHM](https://github.com/Xrg360/NetworkLabS6/blob/master/exp7-LeakyBucket/leakybkt.c)
