@@ -7,21 +7,53 @@ The objective of this experiment is to understand the basics of server-client co
 In this experiment, we implemented a simple client-server model using TCP sockets. The server listens for incoming connections from clients and responds to their requests. The client establishes a connection with the server, sends a message, and receives a response.
 
 ## Experiment Procedure:
-1. **Setting up the Server:**
-   - The server program is executed, which binds to a specific port and starts listening for incoming connections.
-   - Upon receiving a connection request from a client, the server accepts the connection and handles client requests.
+###ALGORITHM
 
-2. **Setting up the Client:**
-   - The client program is executed, which initiates a connection request to the server's IP address and port number.
-   - Once the connection is established, the client sends a message to the server.
-   - The client receives a response from the server and displays it.
+   -SERVER
+   1. **Include Header Files:**
+   - Include necessary header files such as `stdio.h`, `string.h`, `sys/socket.h`, and `arpa/inet.h`.
 
-3. **Server-Client Communication:**
-   - The client sends a message to the server requesting some action or information.
-   - The server processes the request and sends back an appropriate response to the client.
+   2. **Main Function:**
+      - Declare variables for socket descriptors, server and client addresses, and messages to be sent and received.
+      - Initialize the server and client messages with null characters using `memset()`.
+   
+   3. **Create Socket:**
+      - Call `socket()` to create a socket for communication.
+      - Check if the socket creation was successful. If not, print an error message and exit.
+   
+   4. **Bind to Port:**
+      - Set up the server address structure (`server_addr`) with the desired port and IP address (`127.0.0.1` in this case).
+      - Call `bind()` to bind the socket to the server address.
+      - Check for errors in binding. If there's an error, print a message and exit.
+   
+   5. **Listen for Connections:**
+      - Call `listen()` to make the server listen for incoming connections.
+      - Check for errors in listening. If there's an error, print a message and exit.
+   
+   6. **Accept Connection:**
+      - Call `accept()` to accept incoming client connections.
+      - If the connection is accepted successfully, print the client's IP address and port number.
+   
+   7. **Receive Data from Client:**
+      - Call `recv()` to receive data from the client.
+      - Check for errors in receiving. If there's an error, print a message and exit.
+   
+   8. **Process Received Data:**
+      - Print the message received from the client.
+   
+   9. **Send Data to Client:**
+      - Prepare a response message for the client.
+      - Call `send()` to send the response message to the client.
+      - Check for errors in sending. If there's an error, print a message and exit.
+   
+   10. **Close Connections:**
+       - Close the client socket using `close()`.
+       - Close the server socket using `close()`.
+   
+   11. **Exit:**
+       - Exit the program with status `0`.
+   
 
-4. **Termination:**
-   - After communication is complete, both the client and server close their respective sockets and terminate the connection.
 
 ## Viva Questions:
 1. What is TCP (Transmission Control Protocol), and how does it differ from UDP (User Datagram Protocol)?
