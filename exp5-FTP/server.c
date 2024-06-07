@@ -12,13 +12,18 @@ main()
     char filename[100], filedata[300];
     fflush(stdin);
     serversock = socket(AF_INET, SOCK_STREAM, 0);
+    printf("\nServer socket created."); 
     bzero((char *)&serveraddr, sizeof(serveraddr));
+    
     serveraddr.sin_family = AF_INET;
     serveraddr.sin_port = 2000;
     serveraddr.sin_addr.s_addr = inet_addr("127.0.0.1");
     bind(serversock, (struct sockaddr *)&serveraddr, sizeof(serveraddr));
+    printf("\nServer bind completed.\n");
+    
     sizeof(serveraddr);
     listen(serversock, 5);
+    printf("Server listening for client connection...\n");
     while (1)
     {
         clientsize = sizeof(clientaddr);
@@ -28,8 +33,8 @@ main()
         printf("\nThe requested file from the client is %s.\n", filename);
         f = open(filename, O_RDWR);
         n = read(f, filedata, 300);
-        printf("\nThe contents of the file: \n\n");
-        printf("%s", filedata);
+        printf("\nThe contents of the file: \n");
+        printf("%s\n", filedata);
         write(newserversock, filedata, n);
     }
     close(serversock);
