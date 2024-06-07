@@ -21,6 +21,9 @@ gcc server.c
 gcc client.c
 ```
 3. Run the server program first by executing the generated executable.
+```bash
+./a.out
+```
 4. Run the client program by executing the generated executable, providing the necessary inputs.
 5. Observe the output in the console and refer to the `output.md` file for a sample output.
 
