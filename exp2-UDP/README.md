@@ -5,7 +5,7 @@
 2. [Experiment Overview](https://github.com/Xrg360/networkLabS6/tree/master/exp2-UDP#experiment-overview)
    1. SERVER ALGORITHM
    2. CLIENT ALGORITHM
-3. [Outputs](https://github.com/Xrg360/networkLabS6/blob/master/exp2-UDP/output.md)
+3. [Outputs](https://github.com/Xrg360/networkLabS6/blob/master/exp2-UDP/outputs.md)
 4. [Viva Questions](https://github.com/Xrg360/networkLabS6/tree/master/exp2-UDP#viva-questions)
 
 ## Objective:
