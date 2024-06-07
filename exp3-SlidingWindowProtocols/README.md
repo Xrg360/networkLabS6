@@ -7,15 +7,16 @@ The objective of this experiment is to understand the principles and implementat
 In this experiment, we explore the sliding window protocol, which is used for reliable data transfer in computer networks. The sliding window protocol allows for efficient utilization of network resources by allowing multiple packets to be in transit simultaneously.
 
 ## Experiment Procedure:
-1. [**Stop-and-Wait Protocol:**](https://github.com/Xrg360/networkLabS6/tree/master/exp3-SlidingWindowProtocols/stopAndWait)
-   - Implement the stop-and-wait protocol, where the sender sends one packet and waits for an acknowledgment from the receiver before sending the next packet.
-
-2. [**Go-Back-N Protocol:**](https://github.com/Xrg360/networkLabS6/tree/master/exp3-SlidingWindowProtocols/goBack)
+1. [**Go-Back-N Protocol:**](https://github.com/Xrg360/networkLabS6/tree/master/exp3-SlidingWindowProtocols/goBack)
    - Implement the Go-Back-N protocol, where the sender can transmit multiple packets before receiving acknowledgments from the receiver. However, if an acknowledgment for a packet is not received within a specified timeout period, the sender retransmits all packets starting from the lost packet.
 
-3. [**Selective Repeat Protocol:**](https://github.com/Xrg360/networkLabS6/tree/master/exp3-SlidingWindowProtocols/selectiveRepeat)
+2. [**Selective Repeat Protocol:**](https://github.com/Xrg360/networkLabS6/tree/master/exp3-SlidingWindowProtocols/selectiveRepeat)
    - Implement the Selective Repeat protocol, where the sender can transmit multiple packets before receiving acknowledgments from the receiver. In this protocol, the receiver individually acknowledges each packet, allowing the sender to retransmit only the lost packets.
 
+3. [**Stop-and-Wait Protocol:**](https://github.com/Xrg360/networkLabS6/tree/master/exp3-SlidingWindowProtocols/stopAndWait)
+   - Implement the stop-and-wait protocol, where the sender sends one packet and waits for an acknowledgment from the receiver before sending the next packet.
+
+   
 
 ## Viva Questions:
 1. What is the sliding window protocol, and what problem does it solve in computer networks?
