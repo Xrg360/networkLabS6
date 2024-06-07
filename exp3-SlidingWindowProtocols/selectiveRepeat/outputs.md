@@ -1,5 +1,5 @@
 # server.c
-
+```
 Socket created
 Bind done
 Server listening ..
@@ -12,10 +12,10 @@ Frame 4 received ackknowledgement sent for 4
 Frame 6 received instead of 5
  sending NAK -5Frame 5 received ackknowledgement sent for 6
 
-
+```
 
  # client.c
-
+```
  Socket created
 Connected to server
 Enter the number of frames to be sent
@@ -45,3 +45,5 @@ Ack not received for 5
 RESENDING ...
 Ack received 6
 EXIT
+
+```
