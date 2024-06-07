@@ -1,5 +1,13 @@
 # Network Lab - Experiment: Server-Client Communication using UDP
 
+## Contents:
+1. [Objective](https://github.com/Xrg360/networkLabS6/blob/master/exp2-UDP/README.md#objective)
+2. [Experiment Overview](https://github.com/Xrg360/networkLabS6/tree/master/exp2-UDP#experiment-overview)
+   1. SERVER ALGORITHM
+   2. CLIENT ALGORITHM
+3. [Outputs](https://github.com/Xrg360/networkLabS6/blob/master/exp2-UDP/output.md)
+4. [Viva Questions](https://github.com/Xrg360/networkLabS6/tree/master/exp2-UDP#viva-questions)
+
 ## Objective:
 The objective of this experiment is to understand the basics of server-client communication using UDP (User Datagram Protocol).
 
