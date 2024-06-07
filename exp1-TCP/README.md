@@ -5,7 +5,8 @@
 2. [Experiment Overview](https://github.com/Xrg360/networkLabS6/tree/master/exp1-TCP#experiment-overview)
    1. SERVER ALGORITHM
    2. CLIENT ALGORITHM
-3. [Viva Questions](https://github.com/Xrg360/networkLabS6/tree/master/exp1-TCP#viva-questions)
+3. [Outputs](https://github.com/Xrg360/networkLabS6/blob/master/exp1-TCP/output.md)
+4. [Viva Questions](https://github.com/Xrg360/networkLabS6/tree/master/exp1-TCP#viva-questions)
 
 
 ## Objective:
