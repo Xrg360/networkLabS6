@@ -1,5 +1,6 @@
 # server.c
 
+```
 socket created successfully
 Bind done
 server listening ..
@@ -42,12 +43,12 @@ Frame 0 discarded
  acknoledgement sent:9
 Frame 0 discarded
  acknoledgement sent:9
-
+```
 
 
 # clent.c
 
-
+```
 Socket created
 Connected successfully
 Enter the number of frames: 10
@@ -88,3 +89,4 @@ Ack received 7
 Ack received 8
 Ack received 9
 EXIT
+```
