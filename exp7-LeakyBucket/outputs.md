@@ -1,3 +1,5 @@
+# output for leaky bucket
+```
 Packet[0]:30 bytes
 Packet[1]:10 bytes
 Packet[2]:10 bytes
@@ -67,3 +69,4 @@ Time left for transmission: 20 units
 Packet of size 10 Transmitted
 40 bytes remaining to transmit
 Packet of size 10 Transmitted
+```
