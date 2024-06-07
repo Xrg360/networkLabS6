@@ -1,3 +1,6 @@
+# output distance vector routing
+
+```
 Enter the number of nodes : 3
 
 Enter the cost matrix :
@@ -23,3 +26,5 @@ node 3 via 3 Distance 2
 node 1 via 2 Distance 3
 node 2 via 2 Distance 2
 node 3 via 3 Distance 0
+
+```
