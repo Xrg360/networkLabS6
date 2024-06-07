@@ -45,17 +45,5 @@ To use this implementation, follow these steps:
 
     ## License
 
-    This project is licensed under the [MIT License](LICENSE).
+    This project is licensed under the [XRG License](LICENSE).
 
-2. Compile the `client.c` file using a C compiler.
-3. Run the server program first by executing the generated executable.
-4. Run the client program by executing the generated executable, providing the necessary inputs.
-5. Observe the output in the console and refer to the `output.md` file for a sample output.
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
