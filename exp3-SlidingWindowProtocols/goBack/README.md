@@ -25,7 +25,7 @@ gcc client.c
 ./a.out
 ```
 4. Run the client program by executing the generated executable, providing the necessary inputs.
-5. Observe the output in the console and refer to the `output.md` file for a sample output.
+5. Observe the output in the console and refer to the [`outputs`](https://github.com/Xrg360/networkLabS6/blob/master/exp3-SlidingWindowProtocols/goBack/outputs.md) file for a sample output.
 
 ## Contributing
 
