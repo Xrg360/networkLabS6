@@ -19,6 +19,8 @@ void main(){
     server.sin_addr.s_addr = inet_addr("127.0.0.1");
 
     connect(sockd,(struct sockaddr * )&server,sizeof(server));
+
+    //ASSIGN A NUMBER AND TYPECAST THIS NUMBER TO STRING AND THEN SEND IT TO THE SERVER
     int number_to_send = 900;
     sprintf(client_msg, "%d", number_to_send);
 
