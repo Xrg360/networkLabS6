@@ -29,6 +29,9 @@ void main(){
     recv(client_sock,client_msg,sizeof(client_msg),0);
 
     printf("%s\n\n",client_msg);
+
+
+    //RECIEVE A NUMBER FROM CLIENT AND ADD 2 TO IT AND PRINT TO SERVER CONSOLE
     sscanf(client_msg , "%d",&client_num);
     printf("%d",client_num+2);
     
